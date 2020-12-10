@@ -1,5 +1,8 @@
 "use strict";
 // Fetch the items from the JSON file
+
+alert("뚜동, 바보!!");
+
 function loadItems() {
   return fetch("data/data.json")
     .then((Response) => Response.json())
